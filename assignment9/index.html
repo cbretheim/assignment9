@@ -1,0 +1,44 @@
+<html>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Assignment 9</title>
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+    @font-face {
+    font-family: "Druk Condensed";
+    src: url(fonts/druk_condensed/DrukCond-Super.otf);
+    }
+    </style>
+  </head>
+
+  <body>
+    <h1>10 FACTS ABOUT LLAMAS</h1>
+
+    <div id="myApp">
+      <ol>
+        <li>{{llamaDiet}}</li>
+        <li>{{scientificName}}</li>
+        <li>{{height}}</li>
+        <li v-if="weightPounds>200">Llamas weigh {{weightPounds}} pounds on average</li>
+        <li>{{origin}}</li>
+        <li>{{packs}}</li>
+        <li>{{overloaded}}</li>
+        <li>{{babies}}</li>
+        <li>{{gestation}}</li>
+        <li>{{speed}}</li>
+      </ol>
+    </div>
+
+    <div id="sources">
+      <p>Sources:
+        <a href="https://www.nationalgeographic.com/animals/mammals/l/llama/">National Geographic</a>, <a href="http://mentalfloss.com/article/61917/7-fast-facts-about-llamas">Mental Floss</a>
+      </p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="script.js"></script>
+  </body>
+
+</html>

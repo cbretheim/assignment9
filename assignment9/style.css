@@ -1,0 +1,41 @@
+body {
+font-family: 'Karla', sans-serif;
+font-size: 16px;
+background-image: url(llama.jpg);
+}
+
+h1 {
+  font-family: "Druk Condensed";
+  letter-spacing: 1px;
+  font-size: 10em;
+  text-align: center;
+  line-height: 0.8em;
+  padding-top: 3rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#myApp {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 1rem;
+  width: 50%;
+  margin: auto;
+}
+
+li {
+  padding-bottom: 0.5rem;
+}
+
+#sources {
+  text-align: center;
+}
+
+
+a {
+color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  background: #d9c9e8;
+  color: #321a56;
+}
